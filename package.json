@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "name": "cloud-photoframe",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
