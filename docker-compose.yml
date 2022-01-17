@@ -6,7 +6,7 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - ${PHOTOS_DIR}:/app/photos
+      - ${PHOTOS_DIR}:/app/photos # If using local photos
   # wifi-connect:
   #   image: balenablocks/wifi-connect:amd64
   #   restart: always

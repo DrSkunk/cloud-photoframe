@@ -5,6 +5,7 @@ const extensions = ["jpg", "jpeg", "png", "gif", "bmp", "tiff", "tif", "webp"];
 
 // TODO go through all pictures before showing again
 // TODO change to environment variable
+// TODO shuffle parameter
 const photosDir = resolve("photos");
 
 export default async function photo(req, res) {
